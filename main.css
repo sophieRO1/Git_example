@@ -18,3 +18,17 @@ h1 {
 h1:hover {
     color: deeppink;
 }
+
+button {
+    margin-top: 20px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: deeppink;
+    border: 0;
+    border-radius: 5px;
+    transition: all 1s ease-out;
+}
